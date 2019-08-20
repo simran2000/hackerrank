@@ -1,0 +1,209 @@
+https://www.hackerrank.com/challenges/diagonal-difference/submissions/code/119077294
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'diagonalDifference' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts 2D_INTEGER_ARRAY arr as parameter.
+#
+
+def diagonalDifference(a):
+    #
+    # Write your code here
+    #
+
+    sum_diag1 = 0
+    sum_diag2 = 0
+
+    # loop diag_1 = 0 but we'll use loop index
+
+
+    index_diag2 = len(a)-1
+    # loop over a
+    for i,elem in enumerate(a):
+        sum_diag1 += elem[i]
+        sum_diag2 += elem[index_diag2]
+        index_diag2 -= 1
+
+    return abs(sum_diag1-sum_diag2)    
+
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    arr = []
+
+    for _ in range(n):
+        arr.append(list(map(int, input().rstrip().split())))
+
+    result = diagonalDifference(arr)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+https://www.hackerrank.com/challenges/diagonal-difference/submissions/code/119077294
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'diagonalDifference' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts 2D_INTEGER_ARRAY arr as parameter.
+#
+
+def diagonalDifference(a):
+    #
+    # Write your code here
+    #
+
+    sum_diag1 = 0
+    sum_diag2 = 0
+
+    # loop diag_1 = 0 but we'll use loop index
+
+
+    index_diag2 = len(a)-1
+    # loop over a
+    for i,elem in enumerate(a):
+        sum_diag1 += elem[i]
+        sum_diag2 += elem[index_diag2]
+        index_diag2 -= 1
+
+    return abs(sum_diag1-sum_diag2)    
+
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    arr = []
+
+    for _ in range(n):
+        arr.append(list(map(int, input().rstrip().split())))
+
+    result = diagonalDifference(arr)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'diagonalDifference' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts 2D_INTEGER_ARRAY arr as parameter.
+#
+
+def diagonalDifference(a):
+    #
+    # Write your code here
+    #
+
+    sum_diag1 = 0
+    sum_diag2 = 0
+
+    # loop diag_1 = 0 but we'll use loop index
+
+
+    index_diag2 = len(a)-1
+    # loop over a
+    for i,elem in enumerate(a):
+        sum_diag1 += elem[i]
+        sum_diag2 += elem[index_diag2]
+        index_diag2 -= 1
+
+    return abs(sum_diag1-sum_diag2)    
+
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    arr = []
+
+    for _ in range(n):
+        arr.append(list(map(int, input().rstrip().split())))
+
+    result = diagonalDifference(arr)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'diagonalDifference' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts 2D_INTEGER_ARRAY arr as parameter.
+#
+
+def diagonalDifference(a):
+    #
+    # Write your code here
+    #
+
+    sum_diag1 = 0
+    sum_diag2 = 0
+
+    # loop diag_1 = 0 but we'll use loop index
+
+
+    index_diag2 = len(a)-1
+    # loop over a
+    for i,elem in enumerate(a):
+        sum_diag1 += elem[i]
+        sum_diag2 += elem[index_diag2]
+        index_diag2 -= 1
+
+    return abs(sum_diag1-sum_diag2)    
+
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    arr = []
+
+    for _ in range(n):
+        arr.append(list(map(int, input().rstrip().split())))
+
+    result = diagonalDifference(arr)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+
