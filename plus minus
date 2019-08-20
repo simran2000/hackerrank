@@ -1,0 +1,29 @@
+
+https://www.hackerrank.com/challenges/plus-minus/submissions/code/119079253
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+from decimal import Decimal
+# Complete the plusMinus function below.
+def plusMinus(arr): 
+    length = len(arr)
+    pos = len(list(filter(lambda x: x > 0, arr)))
+    neg = len(list(filter(lambda x: x < 0, arr)))
+    zeros = length - (pos+neg)
+
+    print(Decimal(pos)/Decimal(length))
+    print(Decimal(neg)/Decimal(length))
+    print(Decimal(zeros)/Decimal(length))
+
+
+if __name__ == '__main__':
+    n = int(input())
+
+    arr = list(map(int, input().rstrip().split()))
+
+    plusMinus(arr)
